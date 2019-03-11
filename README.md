@@ -1,11 +1,29 @@
 # iptux: 飞鸽传书 GNU/Linux 版
 
-[![Build Status](https://travis-ci.org/iptux-src/iptux.png?branch=master)](https://travis-ci.org/iptux-src/iptux)
-[![GitHub version](https://badge.fury.io/gh/iptux-src%2Fiptux.png)](http://badge.fury.io/gh/iptux-src%2Fiptux)
+[![CodeFactor](https://www.codefactor.io/repository/github/iptux-src/iptux/badge)](https://www.codefactor.io/repository/github/iptux-src/iptux)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d0340710e474453aa5d4c6943cadeb80)](https://app.codacy.com/app/lidaobing/iptux?utm_source=github.com&utm_medium=referral&utm_content=iptux-src/iptux&utm_campaign=badger)
+[![Build Status](https://travis-ci.org/iptux-src/iptux.svg?branch=master)](https://travis-ci.org/iptux-src/iptux)
+[![GitHub version](https://badge.fury.io/gh/iptux-src%2Fiptux.svg)](http://badge.fury.io/gh/iptux-src%2Fiptux)
+[![Join the chat at https://gitter.im/iptux-src/Lobby](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/iptux-src/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![codecov](https://codecov.io/gh/iptux-src/iptux/branch/master/graph/badge.svg)](https://codecov.io/gh/iptux-src/iptux/branch/master)
 
-* If anyone want to adopt this software, please [file an issue](https://github.com/iptux-src/iptux/issues/new)<br>
-  at https://github.com/iptux-src/iptux/issues/new
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
+- [iptux: 飞鸽传书 GNU/Linux 版](#iptux-%E9%A3%9E%E9%B8%BD%E4%BC%A0%E4%B9%A6-gnulinux-%E7%89%88)
+  - [Install](#install)
+    - [Linux (Debian and Ubuntu)](#linux-debian-and-ubuntu)
+    - [Mac OS X](#mac-os-x)
+  - [Build from source](#build-from-source)
+    - [Linux (Debian and Ubuntu)](#linux-debian-and-ubuntu-1)
+    - [Mac OS X](#mac-os-x-1)
+  - [Usage](#usage)
+    - [Compatible list](#compatible-list)
+  - [Contributing](#contributing)
+    - [How to update `po/iptux.pot`](#how-to-update-poiptuxpot)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Install
 
@@ -15,13 +33,46 @@
 sudo apt-get install iptux
 ```
 
+### Mac OS X
+
+stable version without gstreamer:
+
+```sh
+brew unlink gstreamer # check #211
+brew install https://raw.githubusercontent.com/iptux-src/iptux/master/homebrew/iptux.rb
+```
+
+stable version with gstream: # much slower
+
+```sh
+brew install https://raw.githubusercontent.com/iptux-src/iptux/master/homebrew/iptux.rb --with-gstreamer
+```
+
+head version without gstreamer:
+
+```sh
+brew unlink gstreamer # check #211
+brew install --HEAD https://raw.githubusercontent.com/iptux-src/iptux/master/homebrew/iptux.rb
+```
+
+head version with gstreamer: # much slower
+
+```sh
+brew install --HEAD https://raw.githubusercontent.com/iptux-src/iptux/master/homebrew/iptux.rb --with-gstreamer
+```
+
 
 ## Build from source
 
 ### Linux (Debian and Ubuntu)
 
-```
-sudo apt-get install git libgtk2.0-dev libglib2.0-dev libgstreamer1.0-dev g++ make cmake
+* for Ubuntu 14.04, please download from https://github.com/iptux-src/iptux/releases/tag/v0.6.4
+
+```sh
+sudo apt-get install git libgtk-3-dev libglib2.0-dev libjsoncpp-dev g++ make cmake
+# if you need the sound support
+sudo apt-get install libgstreamer1.0-dev gstreamer1.0-plugins-good gstreamer1.0-alsa 
+# endif
 git clone git://github.com/iptux-src/iptux.git
 cd iptux
 mkdir build && cd build && cmake .. && make
@@ -31,8 +82,13 @@ iptux
 
 ### Mac OS X
 
-```
-brew install gettext gtk+ cmake
+```sh
+brew install gettext gtk+3 cmake jsoncpp
+# if you need the sound support
+brew install gstreamer
+brew install gst-plugins-base --with-libogg --with-libvorbis
+brew install gst-plugins-good
+# endif
 git clone git://github.com/iptux-src/iptux.git
 cd iptux
 mkdir build && cd build && cmake .. && make
@@ -40,35 +96,33 @@ sudo make install
 iptux
 ```
 
+## Usage
 
-## 贡献
+* adjust firewall to allow use the TCP/UDP 2425 port.
+* then run `iptux`.
 
-* [Launchpad](http://translations.launchpad.net/iptux/trunk) 为 iptux 贡献翻译。页面由 LI Daobing &lt;lidaobing@gmail.com&gt; 提供；
-* 欢迎为 iptux (最新版) 制作二进制包、提供补丁。
+### Compatible list
 
-## 声明
+check https://github.com/iptux-src/iptux/wiki/Compatible-List
 
-请总是使用最新版本！！
+## Contributing
 
-* 老版本中出现的 bug 可能已被修正；
-* 许多新特性需要您的试用。
+You can help improve [translation](http://translations.launchpad.net/iptux/trunk), test the [compatibility](https://github.com/iptux-src/iptux/wiki/Compatible-List), fix [bugs](https://github.com/iptux-src/iptux/issues).
 
-## 基本
+### How to update `po/iptux.pot`
 
-兼容 Windows 版[飞鸽传书](http://www.ipmsg.org.cn/)、[飞秋](http://www.feiq18.com/)和 Android 版飞鸽协议，也兼容日本 SHIROUZU Hiroaki (白水啓章) 先生原著的 [IP Messenger](http://ipmsg.org/) 实现局域网的通信，文件传输。
+```
+xgettext \
+  --output=po/iptux.pot \
+  --files-from=po/POTFILES.in \
+  --language=C++ \
+  --keyword=_ \
+  --from-code=utf-8 \
+  --package-name=iptux \
+  --msgid-bugs-address=https://github.com/iptux-src/iptux/issues/new \
+  --package-version=0.7.3
+```
 
-## 提高
+## Stargazers over time
 
-自定义一部分命令字，实现文件共享功能，群组通信，自动识别编码
-
-## 相关
-请查看 Wiki 标签，那里可能有你需要的内容！
-
-## 必须
-
-* 打开防火墙的 TCP/UDP 2425 端口
-* 运行命令: `sudo gtk-update-icon-cache PREFIX/share/icons/hicolor` (使用时机: 图标显示异常，PREFIX 为程序安装目录)
-
-
-## TODO
-错误不可避免，请发送错误报告到 https://github.com/iptux-src/iptux/issues
+[![Stargazers over time](https://starcharts.herokuapp.com/iptux-src/iptux.svg)](https://starcharts.herokuapp.com/iptux-src/iptux)

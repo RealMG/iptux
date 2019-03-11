@@ -76,7 +76,7 @@ config.h
 config.log
 config.status
 po/POTFILES
-src/iptux
+src/main/iptux
 stamp-h1
 autom4te.cache
 *.gmo
@@ -90,3 +90,27 @@ CMakeFiles
 
 install_manifest.txt
 build
+test/googletest-prefix
+
+CTestTestfile.cmake
+
+src/googletest-download/CMakeLists.txt
+
+src/googletest-download/googletest-prefix
+
+src/googletest-src
+
+src/Test
+
+src/Testing
+
+Testing
+src/iptux/libiptux_test
+*.cbp
+
+src/iptux/IptuxResource.c
+
+src/iptux/IptuxResource.h
+
+src/iptux/IptuxResource.cpp
+cmake-build-debug

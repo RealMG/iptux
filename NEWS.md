@@ -1,3 +1,54 @@
+# 0.8.0 (2018-XX-XX)
+
+* [#114] fix icon size.
+* [#119] check the return code of `setsockopt`.
+* [#?] switch to GTK+3, and use `GtkApplication`.
+* [#125] fix crash on UdpData::SomeoneSendmsg.
+* [#140] fix crash on TransWindow::TerminateTransTask.
+* [#132] fix file accepted when cancel the directory chooser dialog.
+* [#154] fix sound system.
+* [#52] fix bind problem.
+
+### refactor
+
+* [#123] don't use `obtain_pixbuf_from_stock`.
+* [#136] the binding failed dialog should be a child of the main window.
+
+# 0.7.6 (2018-12-29)
+
+* [#219] fix compatible with FeiQ. thanks to caowai.
+
+# 0.7.5 (2018-05-28)
+
+* [#114] fix icon size.
+* [#119] check the return code of `setsockopt`.
+* [#207] fix crash when config the `Network`.
+
+# 0.7.4 (2018-01-24)
+
+* [#?] fix bug in save share management.
+* [#97] don't download googletest if already installed.
+
+# 0.7.3 (2018-01-20)
+
+* [#98] fix typo, thanks to @hosiet.
+* [#100] fix crash on the context menu of statusicon.
+
+# 0.7.2 (2018-01-16)
+
+* [?] fix crash when clicking on the popup menu of the mainwindow.
+
+* [?] introduce gtest.
+* [?] support specify config from command line.
+* [#92] clean the icon namespace.
+* [?] update po/iptux.pot, update `zh_CN` translation.
+
+# 0.7.1 (2018-01-14)
+
+* [?] fix build guide in `README.md` and homebrew.
+* [#80] honor the default `CMAKE_C_FLAGS` and `CMAKE_CXX_FLAGS`, thanks to @hosiet.
+* [#81] fix crash on status icon click.
+
 # 0.7.0 (2018-01-10)
 
 * [#33] refactor src/AnalogFS.cpp to make the bug log has more information.

@@ -6,445 +6,499 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: iptux\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-09 05:32+0800\n"
-"PO-Revision-Date: 2010-03-26 00:17+0800\n"
-"Last-Translator: zhangjiejing <kzjeef@gmail.com>\n"
+"Report-Msgid-Bugs-To: https://github.com/iptux-src/iptux/issues/new\n"
+"POT-Creation-Date: 2018-01-24 19:51+0800\n"
+"PO-Revision-Date: 2018-01-22 06:45+0000\n"
+"Last-Translator: zhangjiejing <Unknown>\n"
 "Language-Team: English (United Kingdom) <en_GB@li.org>\n"
 "Language: en_GB\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2009-10-31 13:28+0000\n"
-"X-Generator: Launchpad (build Unknown)\n"
+"X-Launchpad-Export-Date: 2018-01-24 12:00+0000\n"
+"X-Generator: Launchpad (build 18532)\n"
 
-#: src/support.cpp:103
-#, c-format
-msgid ""
-"\t-h --help\n"
-"\t\tdisplay this help and exit\n"
-msgstr ""
-
-#: src/support.cpp:104
-#, c-format
-msgid ""
-"\t-v --version\n"
-"\t\toutput version information and exit\n"
-msgstr ""
-
-#: src/dialog.cpp:140 src/dialog.cpp:200
+#: src/iptux/dialog.cpp:139 src/iptux/dialog.cpp:200
 msgid ""
 "\n"
 "Empty Password!"
 msgstr ""
 
-#: src/DataSettings.cpp:1509 src/DataSettings.cpp:1516 src/DetectPal.cpp:122
+#: src/iptux/DetectPal.cpp:117 src/iptux/DataSettings.cpp:1440
+#: src/iptux/DataSettings.cpp:1447
 #, c-format
 msgid ""
 "\n"
 "Illegal IP(v4) address: %s!"
 msgstr ""
 
-#: src/dialog.cpp:195
+#: src/iptux/dialog.cpp:195
 msgid ""
 "\n"
 "Password Mismatched!"
 msgstr ""
 
-#: src/DialogPeer.cpp:477
+#: src/iptux/DialogPeer.cpp:431
 msgid ""
 "\n"
 "Photo:\n"
 msgstr ""
 
-#: src/DialogPeer.cpp:1103 src/DialogPeer.cpp:1176
+#: src/iptux/DialogPeer.cpp:1043 src/iptux/DialogPeer.cpp:1114
 #, c-format
 msgid "%s Of %s Received."
 msgstr ""
 
-#: src/DialogPeer.cpp:1099 src/DialogPeer.cpp:1172
+#: src/iptux/DialogBase.cpp:869
+#, c-format
+msgid "%s Of %s Sent."
+msgstr ""
+
+#: src/iptux/DialogBase.cpp:226
+#, c-format
+msgid "%s To Send."
+msgstr ""
+
+#: src/iptux/DialogPeer.cpp:1039 src/iptux/DialogPeer.cpp:1110
 #, c-format
 msgid "%s to Receive."
 msgstr ""
 
-#: src/dialog.cpp:123
+#: src/iptux/dialog.cpp:121
 #, c-format
 msgid "(%s)[%s]Password:"
 msgstr ""
 
-#: src/HelpDialog.cpp:102 src/HelpDialog.cpp:120
+#: src/main/iptux.cpp:147
+msgid "- A software for sharing in LAN"
+msgstr ""
+
+#: src/iptux/HelpDialog.cpp:92 src/iptux/HelpDialog.cpp:111
 msgid "..."
-msgstr ""
+msgstr "..."
 
-#: src/CoreThread.cpp:994
+#: src/iptux/CoreThread.cpp:922
 msgid "<ERROR>"
-msgstr ""
+msgstr "<ERROR>"
 
-#: src/HelpDialog.cpp:85
+#: src/iptux/HelpDialog.cpp:75
 msgid "A GTK+ based LAN Messenger."
-msgstr ""
+msgstr "A GTK+ based LAN Messenger."
 
-#: src/DialogPeer.cpp:843
+#: src/iptux/DialogPeer.cpp:787
 msgid "Accept"
 msgstr ""
 
-#: src/dialog.cpp:103
+#: src/iptux/dialog.cpp:101
 msgid "Access Password"
 msgstr ""
 
-#: src/DataSettings.cpp:367
+#: src/iptux/DataSettings.cpp:360
 msgid "Activate the sound support"
 msgstr ""
 
-#: src/DataSettings.cpp:459
+#: src/iptux/DataSettings.cpp:455
 msgid "Add"
-msgstr ""
+msgstr "Add"
 
-#: src/ShareFile.cpp:150
+#: src/iptux/ShareFile.cpp:140
 msgid "Add Files"
-msgstr ""
+msgstr "Add Files"
 
-#: src/ShareFile.cpp:153
+#: src/iptux/ShareFile.cpp:143
 msgid "Add Folders"
-msgstr ""
+msgstr "Add Folders"
 
-#: src/DataSettings.cpp:469
+#: src/iptux/DataSettings.cpp:467
 msgid "Added IP(v4) Section:"
 msgstr ""
 
-#: src/DialogPeer.cpp:457 src/MainWindow.cpp:1672
+#: src/iptux/DialogPeer.cpp:411 src/iptux/MainWindow.cpp:1589
 #, c-format
 msgid "Address: %s\n"
 msgstr ""
 
-#: src/DialogPeer.cpp:455 src/MainWindow.cpp:1670
+#: src/iptux/DialogPeer.cpp:409 src/iptux/MainWindow.cpp:1587
 #, c-format
 msgid "Address: %s(%s)\n"
-msgstr ""
+msgstr "Address: %s(%s)\n"
 
-#: src/dialog.cpp:60
+#: src/iptux/dialog.cpp:56
 msgid "Agree"
-msgstr ""
+msgstr "Agree"
 
-#: src/ShareFile.cpp:106
+#: src/iptux/ShareFile.cpp:98
 msgid "Apply"
-msgstr ""
+msgstr "Apply"
 
-#: src/DialogGroup.cpp:531 src/MainWindow.cpp:921
+#: src/iptux/MainWindow.cpp:852 src/iptux/DialogGroup.cpp:457
 msgid "Ascending"
 msgstr ""
 
-#: src/DialogPeer.cpp:367
+#: src/iptux/DialogPeer.cpp:321 src/iptux/DialogBase.cpp:344
 msgid "Attach File"
 msgstr ""
 
-#: src/DialogPeer.cpp:373
+#: src/iptux/DialogPeer.cpp:328 src/iptux/DialogBase.cpp:351
 msgid "Attach Folder"
 msgstr ""
 
-#: src/DataSettings.cpp:330
+#: src/iptux/DataSettings.cpp:325
 msgid "Automatically clean up the chat history"
 msgstr ""
 
-#: src/DataSettings.cpp:315
+#: src/iptux/DataSettings.cpp:310
 msgid "Automatically hide the panel after login"
 msgstr ""
 
-#: src/DataSettings.cpp:320
+#: src/iptux/DataSettings.cpp:315
 msgid "Automatically open the File Transmission Management"
 msgstr ""
 
-#: src/DataSettings.cpp:310
+#: src/iptux/DataSettings.cpp:305
 msgid "Automatically open the chat dialog"
 msgstr ""
 
-#: src/RevisePal.cpp:155
+#: src/iptux/RevisePal.cpp:153
 msgid "Be SURE to know what you are doing!"
 msgstr ""
 
-#: src/RevisePal.cpp:175
+#: src/iptux/RevisePal.cpp:173
 msgid "Be compatible with iptux's protocol (DANGEROUS)"
 msgstr ""
 
-#: src/DataSettings.cpp:443
+#: src/iptux/DataSettings.cpp:437
 msgid "Beginning of the IP(v4) section"
 msgstr ""
 
-#: src/CoreThread.cpp:1171
+#: src/iptux/CoreThread.cpp:1090
 msgid "Broadcast"
-msgstr ""
+msgstr "Broadcast"
 
-#: src/DialogGroup.cpp:521 src/MainWindow.cpp:911
+#: src/iptux/MainWindow.cpp:841 src/iptux/DialogGroup.cpp:446
 msgid "By IP"
-msgstr ""
+msgstr "By IP"
 
-#: src/DialogGroup.cpp:514 src/MainWindow.cpp:904
+#: src/iptux/MainWindow.cpp:833 src/iptux/DialogGroup.cpp:438
 msgid "By Nickname"
-msgstr ""
+msgstr "By Nickname"
 
-#: src/support.cpp:149
+#: src/iptux/support.cpp:97
 msgid "Can't find any available web browser!\n"
 msgstr ""
 
-#: src/DetectPal.cpp:73 src/ShareFile.cpp:107
+#: src/iptux/DetectPal.cpp:69 src/iptux/ShareFile.cpp:99
 msgid "Cancel"
-msgstr ""
+msgstr "Cancel"
 
-#: src/DataSettings.cpp:272
+#: src/iptux/DataSettings.cpp:267
 msgid "Candidate network coding"
 msgstr ""
 
-#: src/DataSettings.cpp:266
+#: src/iptux/DataSettings.cpp:261
 msgid "Candidate network coding:"
 msgstr ""
 
-#: src/MainWindow.cpp:1611
+#: src/iptux/MainWindow.cpp:1529
 msgid "Change Info."
 msgstr ""
 
-#: src/RevisePal.cpp:97
+#: src/iptux/RevisePal.cpp:97
 msgid "Change Pal's Information"
 msgstr ""
 
-#: src/ShareFile.cpp:422
+#: src/iptux/DialogBase.cpp:301
+msgid "Chat History"
+msgstr ""
+
+#: src/iptux/DialogBase.cpp:414
+msgid "Choose enclosure files"
+msgstr ""
+
+#: src/iptux/DialogBase.cpp:417
+msgid "Choose enclosure folders"
+msgstr ""
+
+#: src/iptux/ShareFile.cpp:401
 msgid "Choose the files to share"
 msgstr ""
 
-#: src/ShareFile.cpp:425
+#: src/iptux/ShareFile.cpp:404
 msgid "Choose the folders to share"
 msgstr ""
 
-#: src/DataSettings.cpp:494
+#: src/iptux/DataSettings.cpp:494
 msgid "Clear"
-msgstr ""
+msgstr "Clear"
 
-#: src/DialogGroup.cpp:501 src/DialogPeer.cpp:417
+#: src/iptux/DialogPeer.cpp:372 src/iptux/DialogGroup.cpp:425
 msgid "Clear Buffer"
-msgstr ""
+msgstr "Clear Buffer"
 
-#: src/ShareFile.cpp:159
+#: src/iptux/ShareFile.cpp:149
 msgid "Clear Password"
-msgstr ""
+msgstr "Clear Password"
 
-#: src/MainWindow.cpp:1556
+#: src/iptux/MainWindow.cpp:1473
 msgid "Clear Tasklist"
-msgstr ""
+msgstr "Clear Tasklist"
 
-#: src/DataSettings.cpp:1248 src/DialogGroup.cpp:657
+#: src/iptux/DataSettings.cpp:1191 src/iptux/DialogGroup.cpp:575
 msgid "Clear Up"
-msgstr ""
+msgstr "Clear Up"
 
-#: src/DialogPeer.cpp:389
+#: src/iptux/DialogPeer.cpp:345 src/iptux/DialogBase.cpp:278
+#: src/iptux/DialogBase.cpp:370
 msgid "Close"
-msgstr ""
+msgstr "Close"
 
-#: src/DialogPeer.cpp:463 src/MainWindow.cpp:1678
-#, c-format
+#: src/iptux/DialogPeer.cpp:417 src/iptux/MainWindow.cpp:1595
 msgid "Compatibility: GNU/Linux\n"
-msgstr ""
+msgstr "Compatibility: GNU/Linux\n"
 
-#: src/DialogPeer.cpp:461 src/MainWindow.cpp:1676
-#, c-format
+#: src/iptux/DialogPeer.cpp:415 src/iptux/MainWindow.cpp:1593
 msgid "Compatibility: Microsoft\n"
-msgstr ""
+msgstr "Compatibility: Microsoft\n"
 
-#: src/MainWindow.cpp:1219
+#: src/iptux/MainWindow.cpp:1156
 msgid "Completed"
 msgstr ""
 
-#: src/dialog.cpp:37
+#: src/iptux/dialog.cpp:35
 msgid "Confirm Exit"
 msgstr ""
 
-#: src/HelpDialog.cpp:102
-msgid "Contributers"
-msgstr ""
+#: src/iptux/HelpDialog.cpp:92
+#, fuzzy
+msgid "Contributors"
+msgstr "Contributers"
 
-#: src/MainWindow.cpp:1231
+#: src/iptux/MainWindow.cpp:1168
 msgid "Cost"
 msgstr ""
 
-#: src/DataSettings.cpp:463
+#: src/iptux/DataSettings.cpp:460
 msgid "Delete"
-msgstr ""
+msgstr "Delete"
 
-#: src/MainWindow.cpp:1626
+#: src/iptux/MainWindow.cpp:1544
 msgid "Delete Pal"
-msgstr ""
+msgstr "Delete Pal"
 
-#: src/ShareFile.cpp:156
+#: src/iptux/ShareFile.cpp:146
 msgid "Delete Resources"
 msgstr ""
 
-#: src/DialogGroup.cpp:538 src/MainWindow.cpp:928
+#: src/iptux/MainWindow.cpp:860 src/iptux/DialogGroup.cpp:465
 msgid "Descending"
 msgstr ""
 
-#: src/DataSettings.cpp:830
+#: src/iptux/DataSettings.cpp:819
 msgid "Description"
 msgstr ""
 
-#: src/DialogPeer.cpp:853
+#: src/iptux/DialogPeer.cpp:797 src/iptux/DialogBase.cpp:733
 msgid "Detail"
 msgstr ""
 
-#: src/DetectPal.cpp:72
+#: src/iptux/DetectPal.cpp:69
 msgid "Detect"
-msgstr ""
+msgstr "Detect"
 
-#: src/DetectPal.cpp:70
+#: src/iptux/DetectPal.cpp:68
 msgid "Detect pals"
 msgstr ""
 
-#: src/DialogPeer.cpp:789
+#: src/iptux/DialogBase.cpp:727
+msgid "Dirs"
+msgstr ""
+
+#: src/iptux/DialogPeer.cpp:735
 msgid "Enclosure."
 msgstr ""
 
-#: src/DataSettings.cpp:452
+#: src/iptux/DataSettings.cpp:447
 msgid "End of the IP(v4) section"
 msgstr ""
 
-#: src/dialog.cpp:163
+#: src/iptux/dialog.cpp:162
 msgid "Enter a New Password"
 msgstr ""
 
-#: src/output.cpp:83
+#: src/iptux/output.cpp:85
 msgid "Error"
-msgstr ""
+msgstr "Error"
 
-#: src/DataSettings.cpp:782
+#: src/iptux/DataSettings.cpp:772
 msgid "Event"
-msgstr ""
+msgstr "Event"
 
-#: src/DataSettings.cpp:491
+#: src/iptux/DataSettings.cpp:490
 msgid "Export"
-msgstr ""
+msgstr "Export"
 
-#: src/SoundSystem.cpp:153
+#: src/iptux/SoundSystem.cpp:145
 #, c-format
 msgid "Failed to play the prompt tone, %s\n"
 msgstr ""
 
-#: src/RecvFileData.cpp:332
+#: src/iptux/RecvFileData.cpp:312
 #, c-format
 msgid "Failed to receive the directory \"%s\" from %s!"
 msgstr ""
 
-#: src/RecvFileData.cpp:184
+#: src/iptux/RecvFileData.cpp:171
 #, c-format
 msgid "Failed to receive the file \"%s\" from %s!"
 msgstr ""
 
-#: src/SendFileData.cpp:290
+#: src/iptux/SendFileData.cpp:274
 #, c-format
 msgid "Failed to send the directory \"%s\" to %s!"
 msgstr ""
 
-#: src/SendFileData.cpp:162
+#: src/iptux/SendFileData.cpp:150
 #, c-format
 msgid "Failed to send the file \"%s\" to %s!"
 msgstr ""
 
-#: src/support.cpp:179
-#, c-format
+#: src/iptux/support.cpp:131
+#, fuzzy, c-format
 msgid ""
 "Fatal Error!!\n"
-"Failed to bind the TCP/UDP port(2425)!\n"
+"Failed to bind the TCP/UDP port(%d)!\n"
 "%s"
 msgstr ""
+"Fatal Error!!\n"
+"Failed to create new socket!\n"
+"%s"
 
-#: src/CoreThread.cpp:231 src/DialogPeer.cpp:762 src/RecvFileData.cpp:152
-#: src/RecvFileData.cpp:212 src/support.cpp:166
+#: src/iptux/support.cpp:115 src/iptux/RecvFileData.cpp:139
+#: src/iptux/RecvFileData.cpp:198 src/iptux/DialogPeer.cpp:708
+#: src/iptux/CoreThread.cpp:228
 #, c-format
 msgid ""
 "Fatal Error!!\n"
 "Failed to create new socket!\n"
 "%s"
 msgstr ""
+"Fatal Error!!\n"
+"Failed to create new socket!\n"
+"%s"
 
-#: src/ShareFile.cpp:270
+#: src/iptux/support.cpp:128
+#, fuzzy, c-format
+msgid ""
+"Fatal Error!! Failed to bind the TCP/UDP port(%d)!\n"
+"%s"
+msgstr ""
+"Fatal Error!!\n"
+"Failed to create new socket!\n"
+"%s"
+
+#: src/iptux/support.cpp:113
+#, fuzzy, c-format
+msgid ""
+"Fatal Error!! Failed to create new socket!\n"
+"%s"
+msgstr ""
+"Fatal Error!!\n"
+"Failed to create new socket!\n"
+"%s"
+
+#: src/iptux/ShareFile.cpp:256
 msgid "File"
 msgstr ""
 
-#: src/DialogPeer.cpp:884
+#: src/iptux/DialogPeer.cpp:826
 msgid "File received."
 msgstr ""
 
-#: src/DialogPeer.cpp:836
+#: src/iptux/DialogPeer.cpp:780
 msgid "File to be receive."
 msgstr ""
 
-#: src/dialog.cpp:34
+#: src/iptux/DialogBase.cpp:719
+msgid "File to send."
+msgstr ""
+
+#: src/iptux/dialog.cpp:32
 msgid ""
 "File transfer has not been completed.\n"
 "Are you sure to cancel and quit?"
 msgstr ""
 
-#: src/MainWindow.cpp:1207
+#: src/iptux/MainWindow.cpp:1144
 msgid "Filename"
 msgstr ""
 
-#: src/MainWindow.cpp:603
+#: src/iptux/DialogBase.cpp:730
+#, fuzzy
+msgid "Files"
+msgstr "_File"
+
+#: src/iptux/MainWindow.cpp:539
 msgid "Files Transmission Management"
 msgstr ""
 
-#: src/DataSettings.cpp:345
+#: src/iptux/DataSettings.cpp:339
 msgid "Filter the request of sharing files"
 msgstr ""
 
-#: src/DataSettings.cpp:1157 src/DataSettings.cpp:1189
+#: src/iptux/DataSettings.cpp:1103 src/iptux/DataSettings.cpp:1134
 #, c-format
 msgid ""
 "Fopen() file \"%s\" failed!\n"
 "%s"
 msgstr ""
 
-#: src/DataSettings.cpp:816
+#: src/iptux/DataSettings.cpp:805
 msgid "From"
 msgstr ""
 
-#: src/DataSettings.cpp:437
+#: src/iptux/DataSettings.cpp:431
 msgid "From:"
 msgstr ""
 
-#: src/MainWindow.cpp:1132
+#: src/iptux/MainWindow.cpp:1068
 msgid "Group"
 msgstr ""
 
-#: src/HelpDialog.cpp:102
+#: src/iptux/HelpDialog.cpp:92
 msgid "Help"
-msgstr ""
+msgstr "Help"
 
-#: src/MainWindow.cpp:1150
+#: src/iptux/MainWindow.cpp:1086
 msgid "Host"
 msgstr ""
 
-#: src/DialogPeer.cpp:450 src/MainWindow.cpp:1665
+#: src/iptux/DialogPeer.cpp:404 src/iptux/MainWindow.cpp:1582
 #, c-format
 msgid "Host: %s\n"
-msgstr ""
+msgstr "Host: %s\n"
 
-#: src/MainWindow.cpp:1138 src/MainWindow.cpp:1201
+#: src/iptux/MainWindow.cpp:1074 src/iptux/MainWindow.cpp:1138
 msgid "IPv4"
-msgstr ""
+msgstr "IPv4"
 
-#: src/DataSettings.cpp:488
+#: src/iptux/DataSettings.cpp:486
 msgid "Import"
-msgstr ""
+msgstr "Import"
 
-#: src/DialogPeer.cpp:329
+#: src/iptux/DialogPeer.cpp:284
 msgid "Info."
 msgstr ""
 
-#: src/output.cpp:35
-msgid "Infomation"
-msgstr ""
+#: src/iptux/output.cpp:40
+#, fuzzy
+msgid "Information"
+msgstr "Infomation"
 
-#: src/DialogPeer.cpp:413
+#: src/iptux/DialogPeer.cpp:367
 msgid "Insert Picture"
-msgstr ""
+msgstr "Insert Picture"
 
-#: src/HelpDialog.cpp:110
+#: src/iptux/HelpDialog.cpp:101
 msgid ""
 "It's an honor that iptux was contributed voluntarilly by many people. "
 "Without your help, iptux could never make it.\n"
@@ -460,226 +514,228 @@ msgid ""
 "..."
 msgstr ""
 
-#: src/HelpDialog.cpp:61 src/HelpDialog.cpp:66
+#: src/iptux/HelpDialog.cpp:59 src/iptux/HelpDialog.cpp:61
 msgid "Jally <jallyx@163.com>"
 msgstr ""
 
-#: src/HelpDialog.cpp:67
+#: src/iptux/HelpDialog.cpp:62
 msgid "LiWeijian <weijian_li88@qq.com>"
 msgstr ""
 
-#: src/support.cpp:44
+#: src/iptux/support.cpp:52
 msgid "Loading the process successfully!"
 msgstr ""
 
-#: src/HelpDialog.cpp:62 src/HelpDialog.cpp:68
+#: src/iptux/HelpDialog.cpp:60 src/iptux/HelpDialog.cpp:63
 msgid "ManPT <pentie@gmail.com>"
 msgstr ""
 
-#: src/DialogGroup.cpp:371
+#: src/iptux/DialogGroup.cpp:299
 msgid "Member"
 msgstr ""
 
-#: src/DataSettings.cpp:714
+#: src/iptux/DataSettings.cpp:705
 msgid "Message received"
 msgstr ""
 
-#: src/DialogPeer.cpp:1109
-#, c-format
+#: src/iptux/DialogPeer.cpp:1050 src/iptux/DialogBase.cpp:875
 msgid "Mission Completed!"
 msgstr ""
 
-#: src/AnalogFS.cpp:130
+#: src/iptux/AnalogFS.cpp:125
 #, c-format
 msgid "Mkdir() directory \"%s\" failed, %s"
 msgstr ""
 
-#: src/HelpDialog.cpp:128
+#: src/iptux/HelpDialog.cpp:118
 msgid "More About Iptux"
 msgstr ""
 
-#: src/DialogPeer.cpp:995
+#: src/iptux/DialogPeer.cpp:932 src/iptux/DialogBase.cpp:787
 msgid "Name"
 msgstr ""
 
-#: src/DataSettings.cpp:64
+#: src/iptux/DataSettings.cpp:65
 msgid "Network"
 msgstr ""
 
-#: src/MainWindow.cpp:1121
+#: src/iptux/MainWindow.cpp:1057
 msgid "Nickname"
 msgstr ""
 
-#: src/DialogPeer.cpp:444 src/MainWindow.cpp:1659
+#: src/iptux/DialogPeer.cpp:398 src/iptux/MainWindow.cpp:1576
 #, c-format
 msgid "Nickname: %s\n"
-msgstr ""
+msgstr "Nickname: %s\n"
 
-#: src/DialogPeer.cpp:442 src/MainWindow.cpp:1657
+#: src/iptux/DialogPeer.cpp:396 src/iptux/MainWindow.cpp:1574
 #, c-format
 msgid "Nickname: %s@%s\n"
-msgstr ""
+msgstr "Nickname: %s@%s\n"
 
-#: src/ShareFile.cpp:105
+#: src/iptux/ShareFile.cpp:98
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
-#: src/MainWindow.cpp:1540
+#: src/iptux/MainWindow.cpp:1457
 msgid "Open Containing Folder"
 msgstr ""
 
-#: src/MainWindow.cpp:1534
+#: src/iptux/MainWindow.cpp:1451
 msgid "Open This File"
 msgstr ""
 
-#: src/AnalogFS.cpp:84 src/AnalogFS.cpp:89
+#: src/iptux/AnalogFS.cpp:83 src/iptux/AnalogFS.cpp:87
 #, c-format
 msgid "Open() file \"%s\" failed, %s"
 msgstr ""
 
-#: src/AnalogFS.cpp:207
+#: src/iptux/AnalogFS.cpp:198
 #, c-format
 msgid "Opendir() directory \"%s\" failed, %s"
 msgstr ""
 
-#: src/uninstall/utils.cpp:34
-#, c-format
-msgid "Opendir() directory \"%s\" failed, %s\n"
-msgstr ""
-
-#: src/CoreThread.cpp:556 src/CoreThread.cpp:581 src/CoreThread.cpp:1121
-#: src/CoreThread.cpp:1147
+#: src/iptux/CoreThread.cpp:526 src/iptux/CoreThread.cpp:549
+#: src/iptux/CoreThread.cpp:1042 src/iptux/CoreThread.cpp:1067
 msgid "Others"
-msgstr ""
+msgstr "Others"
 
-#: src/DataSettings.cpp:289
+#: src/iptux/DataSettings.cpp:284
 msgid "Pal's default face picture:"
 msgstr ""
 
-#: src/RevisePal.cpp:161
+#: src/iptux/RevisePal.cpp:159
 msgid "Pal's face picture:"
 msgstr ""
 
-#: src/RevisePal.cpp:137
+#: src/iptux/RevisePal.cpp:135
 msgid "Pal's group name:"
-msgstr ""
+msgstr "Pal's group name:"
 
-#: src/RevisePal.cpp:125
+#: src/iptux/RevisePal.cpp:123
 msgid "Pal's nickname:"
-msgstr ""
+msgstr "Pal's nickname:"
 
-#: src/DialogGroup.cpp:472
+#: src/iptux/DialogGroup.cpp:397
 msgid "Pals"
 msgstr ""
 
-#: src/MainWindow.cpp:1715
+#: src/iptux/MainWindow.cpp:1630
 #, c-format
 msgid "Pals Online: %<PRIu32>"
 msgstr ""
 
-#: src/MainWindow.cpp:718
+#: src/iptux/MainWindow.cpp:650
 msgid "Pals Online: 0"
 msgstr ""
 
-#: src/DataSettings.cpp:302
+#: src/iptux/DataSettings.cpp:297
 msgid "Panel font:"
 msgstr ""
 
-#: src/dialog.cpp:173
+#: src/iptux/dialog.cpp:171
 msgid "Password: "
+msgstr "Password: "
+
+#: src/iptux/DialogBase.cpp:799
+msgid "Path"
 msgstr ""
 
-#: src/MainWindow.cpp:1195
+#: src/iptux/DialogBase.cpp:780
+msgid "PeelName"
+msgstr ""
+
+#: src/iptux/MainWindow.cpp:1132
 msgid "Peer"
 msgstr ""
 
-#: src/DataSettings.cpp:56
+#: src/iptux/DataSettings.cpp:57
 msgid "Personal"
-msgstr ""
+msgstr "Personal"
 
-#: src/DataSettings.cpp:223
+#: src/iptux/DataSettings.cpp:219
 msgid "Photo"
 msgstr ""
 
-#: src/DataSettings.cpp:775
+#: src/iptux/DataSettings.cpp:764
 msgid "Play"
-msgstr ""
+msgstr "Play"
 
-#: src/DetectPal.cpp:99
+#: src/iptux/DetectPal.cpp:94
 msgid "Please input an IP address (IPv4 only)!"
 msgstr ""
 
-#: src/DetectPal.cpp:91
+#: src/iptux/DetectPal.cpp:86
 msgid "Please input an IP address (IPv4 only):"
 msgstr ""
 
-#: src/RevisePal.cpp:143
+#: src/iptux/RevisePal.cpp:141
 msgid "Please input pal's new group name!"
-msgstr ""
+msgstr "Please input pal's new group name!"
 
-#: src/RevisePal.cpp:131
+#: src/iptux/RevisePal.cpp:129
 msgid "Please input pal's new nickname!"
-msgstr ""
+msgstr "Please input pal's new nickname!"
 
-#: src/dialog.cpp:110
+#: src/iptux/dialog.cpp:107
 msgid "Please input the password for the shared files behind"
 msgstr ""
 
-#: src/DataSettings.cpp:195
+#: src/iptux/DataSettings.cpp:191
 msgid "Please input your group name!"
 msgstr ""
 
-#: src/DataSettings.cpp:184
+#: src/iptux/DataSettings.cpp:180
 msgid "Please input your nickname!"
 msgstr ""
 
-#: src/DataSettings.cpp:1342 src/RevisePal.cpp:426
+#: src/iptux/RevisePal.cpp:413 src/iptux/DataSettings.cpp:1281
 msgid "Please select a face picture"
 msgstr ""
 
-#: src/DataSettings.cpp:1614
+#: src/iptux/DataSettings.cpp:1540
 msgid "Please select a file to import data"
 msgstr ""
 
-#: src/dialog.cpp:226
+#: src/iptux/dialog.cpp:226
 msgid "Please select a folder to save files."
 msgstr ""
 
-#: src/DataSettings.cpp:1365
+#: src/iptux/DataSettings.cpp:1303
 msgid "Please select a personal photo"
 msgstr ""
 
-#: src/DialogPeer.cpp:722
+#: src/iptux/DialogPeer.cpp:669
 msgid "Please select a picture to insert the buffer"
 msgstr ""
 
-#: src/DataSettings.cpp:882
+#: src/iptux/DataSettings.cpp:869
 msgid "Please select a sound file"
 msgstr ""
 
-#: src/DataSettings.cpp:847
+#: src/iptux/DataSettings.cpp:835
 msgid "Please select download folder"
 msgstr ""
 
-#: src/DataSettings.cpp:283
+#: src/iptux/DataSettings.cpp:278
 msgid ""
 "Preference network coding (You should be aware of what you are doing if you "
 "want to modify it.)"
 msgstr ""
 
-#: src/DataSettings.cpp:277
+#: src/iptux/DataSettings.cpp:272
 msgid "Preference network coding:"
 msgstr ""
 
-#: src/DataSettings.cpp:148
+#: src/iptux/DataSettings.cpp:148
 msgid "Preferences"
 msgstr ""
 
-#: src/MainWindow.cpp:1225
+#: src/iptux/MainWindow.cpp:1163
 msgid "Progress"
 msgstr ""
 
-#: src/HelpDialog.cpp:104
+#: src/iptux/HelpDialog.cpp:94
 msgid ""
 "Project Home: \n"
 "https://github.com/iptux-src/iptux\n"
@@ -694,312 +750,298 @@ msgid ""
 "glade to help about your problems."
 msgstr ""
 
-#: src/MainWindow.cpp:1243
+#: src/iptux/MainWindow.cpp:1180
 msgid "Rate"
 msgstr ""
 
-#: src/RecvFileData.cpp:335
+#: src/iptux/RecvFileData.cpp:315
 #, c-format
 msgid "Receive the directory \"%s\" from %s successfully!"
 msgstr ""
 
-#: src/RecvFileData.cpp:187
+#: src/iptux/RecvFileData.cpp:174
 #, c-format
 msgid "Receive the file \"%s\" from %s successfully!"
 msgstr ""
 
-#: src/DialogPeer.cpp:1096 src/DialogPeer.cpp:1169
-#, c-format
+#: src/iptux/DialogPeer.cpp:1036 src/iptux/DialogPeer.cpp:1107
 msgid "Receiving Progress."
 msgstr ""
 
-#: src/DialogPeer.cpp:840
+#: src/iptux/DialogPeer.cpp:784
 msgid "Receiving progress."
 msgstr ""
 
-#: src/LogSystem.cpp:53
+#: src/iptux/LogSystem.cpp:55
 #, c-format
 msgid "Recevied-From: Nickname:%s User:%s Host:%s"
 msgstr ""
 
-#: src/dialog.cpp:61 src/DialogPeer.cpp:848
+#: src/iptux/DialogPeer.cpp:792 src/iptux/dialog.cpp:56
 msgid "Refuse"
-msgstr ""
+msgstr "Refuse"
 
-#: src/MainWindow.cpp:1237
+#: src/iptux/MainWindow.cpp:1174
 msgid "Remaining"
 msgstr ""
 
-#: src/DialogPeer.cpp:1321
+#: src/iptux/DialogPeer.cpp:1254 src/iptux/DialogBase.cpp:360
+#: src/iptux/DialogBase.cpp:663
 msgid "Remove Selected"
 msgstr ""
 
-#: src/dialog.cpp:181
+#: src/iptux/dialog.cpp:180
 msgid "Repeat: "
-msgstr ""
+msgstr "Repeat: "
 
-#: src/dialog.cpp:57 src/DialogPeer.cpp:379 src/MainWindow.cpp:1597
+#: src/iptux/DialogPeer.cpp:335 src/iptux/dialog.cpp:55
+#: src/iptux/MainWindow.cpp:1515
 msgid "Request Shared Resources"
 msgstr ""
 
-#: src/DataSettings.cpp:1243 src/DialogGroup.cpp:652
+#: src/iptux/DataSettings.cpp:1186 src/iptux/DialogGroup.cpp:570
 msgid "Reverse Select"
 msgstr ""
 
-#: src/uninstall/utils.cpp:61
-#, c-format
-msgid "Rmdir() directory \"%s\" failed, %s\n"
-msgstr ""
-
-#: src/DataSettings.cpp:1662
+#: src/iptux/DataSettings.cpp:1587
 msgid "Save data to file"
 msgstr ""
 
-#: src/DataSettings.cpp:213
+#: src/iptux/DataSettings.cpp:209
 msgid "Save files to: "
 msgstr ""
 
-#: src/DataSettings.cpp:335
+#: src/iptux/DataSettings.cpp:329
 msgid "Save the chat history"
 msgstr ""
 
-#: src/DialogPeer.cpp:932
+#: src/iptux/DialogPeer.cpp:875
 msgid "SaveAs"
 msgstr ""
 
-#: src/MainWindow.cpp:801
+#: src/iptux/MainWindow.cpp:731
 msgid "Search Pals"
 msgstr ""
 
-#: src/DataSettings.cpp:1238 src/DialogGroup.cpp:647
+#: src/iptux/DataSettings.cpp:1181 src/iptux/DialogGroup.cpp:565
 msgid "Select All"
 msgstr ""
 
-#: src/DataSettings.cpp:869
+#: src/iptux/DataSettings.cpp:857
 msgid "Select Font"
 msgstr ""
 
-#: src/DialogGroup.cpp:465
+#: src/iptux/DialogBase.cpp:282 src/iptux/DialogGroup.cpp:390
 msgid "Send"
-msgstr ""
+msgstr "Send"
 
-#: src/MainWindow.cpp:1577
+#: src/iptux/MainWindow.cpp:1493
 msgid "Send Message"
-msgstr ""
+msgstr "Send Message"
 
-#: src/SendFileData.cpp:293
+#: src/iptux/SendFileData.cpp:277
 #, c-format
 msgid "Send the directory \"%s\" to %s successfully!"
 msgstr ""
 
-#: src/SendFileData.cpp:165
+#: src/iptux/SendFileData.cpp:153
 #, c-format
 msgid "Send the file \"%s\" to %s successfully!"
 msgstr ""
 
-#: src/LogSystem.cpp:60
+#: src/iptux/LogSystem.cpp:62
 msgid "Send-Broadcast"
 msgstr ""
 
-#: src/LogSystem.cpp:57
+#: src/iptux/LogSystem.cpp:59
 #, c-format
 msgid "Send-To: Nickname:%s User:%s Host:%s"
 msgstr ""
 
-#: src/ShareFile.cpp:162
-msgid "Set Password"
+#: src/iptux/DialogBase.cpp:866
+msgid "Sending Progress."
 msgstr ""
 
-#: src/ShareFile.cpp:102
+#: src/iptux/DialogBase.cpp:724
+msgid "Sending progress."
+msgstr ""
+
+#: src/iptux/ShareFile.cpp:153
+msgid "Set Password"
+msgstr "Set Password"
+
+#: src/iptux/ShareFile.cpp:97
 msgid "Shared Files Management"
 msgstr ""
 
-#: src/DataSettings.cpp:235
+#: src/iptux/DataSettings.cpp:231
 msgid "Signature"
 msgstr ""
 
-#: src/DialogPeer.cpp:470 src/MainWindow.cpp:1685
+#: src/iptux/DialogPeer.cpp:424 src/iptux/MainWindow.cpp:1602
 msgid "Signature:\n"
 msgstr ""
 
-#: src/DialogPeer.cpp:937 src/DialogPeer.cpp:1000 src/MainWindow.cpp:1213
-#: src/ShareFile.cpp:280
+#: src/iptux/DialogPeer.cpp:881 src/iptux/DialogPeer.cpp:938
+#: src/iptux/ShareFile.cpp:266 src/iptux/DialogBase.cpp:793
+#: src/iptux/MainWindow.cpp:1150
 msgid "Size"
 msgstr ""
 
-#: src/DialogGroup.cpp:508
+#: src/iptux/DialogGroup.cpp:432
 msgid "Sort"
-msgstr ""
+msgstr "Sort"
 
-#: src/DataSettings.cpp:61
+#: src/iptux/DataSettings.cpp:62
 msgid "Sound"
-msgstr ""
+msgstr "Sound"
 
-#: src/DataSettings.cpp:383
+#: src/iptux/DataSettings.cpp:376
 msgid "Sound Event"
-msgstr ""
+msgstr "Sound Event"
 
-#: src/DialogPeer.cpp:926 src/DialogPeer.cpp:990
+#: src/iptux/DialogPeer.cpp:868 src/iptux/DialogPeer.cpp:926
 msgid "Source"
 msgstr ""
 
-#: src/uninstall/utils.cpp:45
-#, c-format
-msgid "Stat() file \"%s\" failed, %s\n"
-msgstr ""
-
-#: src/AnalogFS.cpp:109
+#: src/iptux/AnalogFS.cpp:105
 #, c-format
 msgid "Stat64() file \"%s\" failed, %s"
 msgstr ""
 
-#: src/MainWindow.cpp:1183
+#: src/iptux/MainWindow.cpp:1120
 msgid "State"
 msgstr ""
 
-#: src/DataSettings.cpp:414
+#: src/iptux/DataSettings.cpp:409
 msgid "Stop"
-msgstr ""
+msgstr "Stop"
 
-#: src/DataSettings.cpp:58
+#: src/iptux/DataSettings.cpp:59
 msgid "System"
-msgstr ""
+msgstr "System"
 
-#: src/RevisePal.cpp:149
+#: src/iptux/RevisePal.cpp:147
 msgid "System coding:"
 msgstr ""
 
-#: src/DialogPeer.cpp:466 src/MainWindow.cpp:1681
+#: src/iptux/DialogPeer.cpp:420 src/iptux/MainWindow.cpp:1598
 #, c-format
 msgid "System coding: %s\n"
 msgstr ""
 
-#: src/DialogPeer.cpp:231
+#: src/iptux/DialogPeer.cpp:189
 #, c-format
 msgid "Talk with %s(%s) IP:%s"
 msgstr ""
 
-#: src/DialogGroup.cpp:277
+#: src/iptux/DialogGroup.cpp:207
 #, c-format
 msgid "Talk with the group %s"
 msgstr ""
 
-#: src/MainWindow.cpp:1189
+#: src/iptux/MainWindow.cpp:1126
 msgid "Task"
 msgstr ""
 
-#: src/MainWindow.cpp:1551
+#: src/iptux/MainWindow.cpp:1468
 msgid "Terminate All"
-msgstr ""
+msgstr "Terminate All"
 
-#: src/MainWindow.cpp:1546
+#: src/iptux/MainWindow.cpp:1463
 msgid "Terminate Task"
 msgstr ""
 
-#: src/DataSettings.cpp:411
+#: src/iptux/DataSettings.cpp:406
 msgid "Test"
 msgstr ""
 
-#: src/MainWindow.cpp:1946
+#: src/iptux/MainWindow.cpp:1850
 msgid "The file you want to open not exist!"
 msgstr ""
 
-#: src/DetectPal.cpp:127
+#: src/iptux/DetectPal.cpp:122
 #, c-format
 msgid "The notification has been sent to %s."
 msgstr ""
 
-#: src/MainWindow.cpp:1975
+#: src/iptux/MainWindow.cpp:1878
 msgid "The path you want to open not exist!"
 msgstr ""
 
-#: src/support.cpp:63
+#: src/iptux/support.cpp:68
 msgid "The process is about to quit!"
 msgstr ""
 
-#: src/uninstall/utils.cpp:23
-msgid "The user is not privileged!\n"
-msgstr ""
-
-#: src/DataSettings.cpp:822
+#: src/iptux/DataSettings.cpp:812
 msgid "To"
 msgstr ""
 
-#: src/StatusIcon.cpp:102 src/StatusIcon.cpp:274
+#: src/iptux/StatusIcon.cpp:224
 #, c-format
 msgid "To be read: %u messages"
 msgstr ""
 
-#: src/DataSettings.cpp:446
+#: src/iptux/DataSettings.cpp:441
 msgid "To:"
 msgstr ""
 
-#: src/DataSettings.cpp:709
+#: src/iptux/DataSettings.cpp:701
 msgid "Transfer finished"
 msgstr ""
 
-#: src/ShareFile.cpp:286
+#: src/iptux/ShareFile.cpp:272
 msgid "Type"
 msgstr ""
 
-#: src/uninstall/utils.cpp:51 src/uninstall/utils.cpp:67
-#, c-format
-msgid "Unlink() file \"%s\" failed, %s\n"
-msgstr ""
-
-#: src/DataSettings.cpp:325
+#: src/iptux/DataSettings.cpp:320
 msgid "Use the 'Enter' key to send message"
 msgstr ""
 
-#: src/DataSettings.cpp:340
+#: src/iptux/DataSettings.cpp:334
 msgid "Use the Blacklist (NOT recommended)"
 msgstr ""
 
-#: src/MainWindow.cpp:1144
+#: src/iptux/MainWindow.cpp:1080
 msgid "User"
 msgstr ""
 
-#: src/DialogPeer.cpp:447 src/MainWindow.cpp:1662
+#: src/iptux/DialogPeer.cpp:401 src/iptux/MainWindow.cpp:1579
 #, c-format
 msgid "User: %s\n"
-msgstr ""
+msgstr "User: %s\n"
 
-#: src/LogSystem.cpp:83
+#: src/iptux/LogSystem.cpp:84
 #, c-format
 msgid "User:%s Host:%s"
 msgstr ""
 
-#: src/DialogPeer.cpp:438 src/MainWindow.cpp:1653
+#: src/iptux/DialogPeer.cpp:392 src/iptux/MainWindow.cpp:1570
 #, c-format
 msgid "Version: %s\n"
-msgstr ""
+msgstr "Version: %s\n"
 
-#: src/DataSettings.cpp:374
+#: src/iptux/DataSettings.cpp:367
 msgid "Volume Control: "
-msgstr ""
+msgstr "Volume Control: "
 
-#: src/output.cpp:60
+#: src/iptux/output.cpp:63
 msgid "Warning"
-msgstr ""
+msgstr "Warning"
 
-#: src/support.cpp:120
-#, c-format
-msgid "What do you want to do?\n"
-msgstr ""
-
-#: src/DataSettings.cpp:200
+#: src/iptux/DataSettings.cpp:196
 msgid "Your face picture:"
 msgstr ""
 
-#: src/DataSettings.cpp:189
+#: src/iptux/DataSettings.cpp:185
 msgid "Your group name:"
-msgstr ""
+msgstr "Your group name:"
 
-#: src/DataSettings.cpp:178
+#: src/iptux/DataSettings.cpp:174
 msgid "Your nickname:"
-msgstr ""
+msgstr "Your nickname:"
 
-#: src/dialog.cpp:74
+#: src/iptux/dialog.cpp:72
 #, c-format
 msgid ""
 "Your pal (%s)[%s]\n"
@@ -1007,142 +1049,139 @@ msgid ""
 "Do you agree?"
 msgstr ""
 
-#: src/Command.cpp:221
+#: src/iptux/Command.cpp:221
 msgid "Your pal didn't receive the packet. He or she is offline maybe."
-msgstr ""
+msgstr "Your pal didn't receive the packet. He or she is offline maybe."
 
-#: src/MainWindow.cpp:824 src/StatusIcon.cpp:185
+#: src/iptux/StatusIcon.cpp:135 src/iptux/MainWindow.cpp:754
 msgid "_Detect"
-msgstr ""
+msgstr "_Detect"
 
-#: src/MainWindow.cpp:969
+#: src/iptux/MainWindow.cpp:904
 msgid "_FAQ"
 msgstr ""
 
-#: src/DialogPeer.cpp:363 src/MainWindow.cpp:819
+#: src/iptux/DialogPeer.cpp:317 src/iptux/DialogBase.cpp:340
+#: src/iptux/MainWindow.cpp:749
 msgid "_File"
-msgstr ""
+msgstr "_File"
 
-#: src/MainWindow.cpp:833
+#: src/iptux/MainWindow.cpp:763
 msgid "_Find"
-msgstr ""
+msgstr "_Find"
 
-#: src/MainWindow.cpp:957
+#: src/iptux/DialogBase.cpp:389 src/iptux/MainWindow.cpp:890
 msgid "_Help"
-msgstr ""
+msgstr "_Help"
 
-#: src/StatusIcon.cpp:143
+#: src/iptux/StatusIcon.cpp:92
 msgid "_Hide"
-msgstr ""
+msgstr "_Hide"
 
-#: src/MainWindow.cpp:965
+#: src/iptux/MainWindow.cpp:899
 msgid "_More"
-msgstr ""
+msgstr "_More"
 
-#: src/MainWindow.cpp:871 src/StatusIcon.cpp:164
+#: src/iptux/StatusIcon.cpp:114 src/iptux/MainWindow.cpp:800
 msgid "_Preferences"
 msgstr ""
 
-#: src/MainWindow.cpp:845 src/StatusIcon.cpp:194
+#: src/iptux/StatusIcon.cpp:144 src/iptux/MainWindow.cpp:775
 msgid "_Quit"
-msgstr ""
+msgstr "_Quit"
 
-#: src/MainWindow.cpp:889 src/StatusIcon.cpp:173
+#: src/iptux/StatusIcon.cpp:123 src/iptux/MainWindow.cpp:818
 msgid "_Shared Management"
 msgstr ""
 
-#: src/StatusIcon.cpp:145
+#: src/iptux/StatusIcon.cpp:94
 msgid "_Show"
-msgstr ""
+msgstr "_Show"
 
-#: src/MainWindow.cpp:898
+#: src/iptux/MainWindow.cpp:827
 msgid "_Sort"
 msgstr ""
 
-#: src/DialogGroup.cpp:495 src/DialogPeer.cpp:409 src/MainWindow.cpp:865
+#: src/iptux/DialogPeer.cpp:363 src/iptux/MainWindow.cpp:794
+#: src/iptux/DialogGroup.cpp:419
 msgid "_Tools"
-msgstr ""
+msgstr "_Tools"
 
-#: src/MainWindow.cpp:880 src/StatusIcon.cpp:156
+#: src/iptux/StatusIcon.cpp:105 src/iptux/MainWindow.cpp:809
 msgid "_Transmission"
 msgstr ""
 
-#: src/MainWindow.cpp:936
+#: src/iptux/MainWindow.cpp:869
 msgid "_Update"
-msgstr ""
+msgstr "_Update"
 
-#: src/HelpDialog.cpp:71
+#: src/iptux/HelpDialog.cpp:65
 msgid ""
 "alick <alick9188@163.com>\n"
 "ManPT <pentie@gmail.com>"
 msgstr ""
 
-#: src/ShareFile.cpp:224 src/ShareFile.cpp:382
+#: src/iptux/ShareFile.cpp:213 src/iptux/ShareFile.cpp:365
 msgid "directory"
-msgstr ""
+msgstr "directory"
 
-#: src/MainWindow.cpp:953
+#: src/iptux/MainWindow.cpp:886
 msgid "http://code.google.com/p/iptux/wiki/FAQ?wl=en"
 msgstr ""
 
-#: src/HelpDialog.cpp:80 src/MainWindow.cpp:576 src/StatusIcon.cpp:106
-#: src/StatusIcon.cpp:277
+#: src/iptux/StatusIcon.cpp:227 src/iptux/HelpDialog.cpp:70
+#: src/iptux/MainWindow.cpp:515
 msgid "iptux"
-msgstr ""
+msgstr "iptux"
 
-#: src/support.cpp:102
-#, c-format
-msgid "iptux: A software for sharing in LAN\n"
-msgstr ""
+#: src/iptux/MainWindow.cpp:1851
+#, fuzzy
+msgid "iptux Error"
+msgstr "iptux"
 
-#: src/UdpData.cpp:133 src/UdpData.cpp:134 src/UdpData.cpp:569
-#: src/UdpData.cpp:606
+#: src/iptux/UdpData.cpp:133 src/iptux/UdpData.cpp:134
+#: src/iptux/UdpData.cpp:566 src/iptux/UdpData.cpp:602
 msgid "mysterious"
-msgstr ""
+msgstr "mysterious"
 
-#: src/AnalogFS.cpp:161
+#: src/iptux/AnalogFS.cpp:155
 #, c-format
 msgid "opendir on \"%s\" failed: %s"
 msgstr ""
 
-#: src/RecvFileData.cpp:117
+#: src/main/iptux.cpp:151
+#, c-format
+msgid "option parsing failed: %s\n"
+msgstr ""
+
+#: src/iptux/AnalogFS.cpp:148
+#, c-format
+msgid "path %s is not file or directory: st_mode(%x)"
+msgstr ""
+
+#: src/iptux/RecvFileData.cpp:106
 msgid "receive"
-msgstr ""
+msgstr "receive"
 
-#: src/ShareFile.cpp:220 src/ShareFile.cpp:378
+#: src/iptux/ShareFile.cpp:209 src/iptux/ShareFile.cpp:361
 msgid "regular"
-msgstr ""
+msgstr "regular"
 
-#: src/SendFileData.cpp:117
+#: src/iptux/SendFileData.cpp:107
 msgid "send"
-msgstr ""
+msgstr "send"
 
-#. Fail to determine file type, return 0 (判断文件类型失败，直接返回 0)
-#: src/AnalogFS.cpp:149
+#: src/iptux/AnalogFS.cpp:141
 #, c-format
 msgid "stat file \"%s\" failed: %s"
 msgstr ""
 
-#: src/CoreThread.cpp:980 src/RecvFileData.cpp:133 src/RecvFileData.cpp:265
-#: src/SendFileData.cpp:134 src/SendFileData.cpp:221 src/ShareFile.cpp:228
-#: src/ShareFile.cpp:386
+#: src/iptux/RecvFileData.cpp:121 src/iptux/RecvFileData.cpp:249
+#: src/iptux/SendFileData.cpp:123 src/iptux/SendFileData.cpp:206
+#: src/iptux/CoreThread.cpp:908 src/iptux/ShareFile.cpp:217
+#: src/iptux/ShareFile.cpp:369
 msgid "unknown"
-msgstr ""
+msgstr "unknown"
 
-#: src/ProgramData.cpp:216
-msgid "utf-16"
-msgstr ""
-
-#: src/ProgramData.cpp:219
-msgid "utf-8"
-msgstr ""
-
-#~ msgid ""
-#~ "<span weight=\"heavy\" underline=\"error\">\n"
-#~ "Can't send an empty message!!</span>"
-#~ msgstr ""
-#~ "<span weight=\"heavy\" underline=\"error\">\n"
-#~ "Can't send an empty message!!</span>"
-
-#~ msgid "Chat History"
-#~ msgstr "Chat History"
+#~ msgid "The user is not privileged!\n"
+#~ msgstr "The user is not privileged!\n"
